@@ -1,0 +1,28 @@
+* {
+	font-family: 'HelveticaNeue', Verdana, sans-serif;
+
+
+	box-sizing: border-box;
+
+}
+
+pre {
+	font-family: 'Courier New';
+}
+body {
+	padding-top:15%;
+}
+.error_box {
+
+	width:700px;
+	margin:0 auto;
+	border:5px solid #E83933;
+}
+.error_box * {
+	text-align:center;
+	
+}
+
+pre.backtrace {
+	color:gray;
+}
