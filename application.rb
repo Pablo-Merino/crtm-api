@@ -13,7 +13,7 @@ end
 error do
 	@e = request.env['sinatra.error']
 	puts @e.backtrace.join("\n")
-	if ENV['RACK_ENV'] != "production"
+	if ENV['RACK_ENV'] == "production"
 		haml :"errors/error", layout: :"errors/error_layout"
 	else
 		haml :"errors/error_dev", layout: false
