@@ -3,8 +3,7 @@
 require 'sinatra'
 require 'haml'
 
-
-
+require_relative 'mechanizer'
 
 configure do
 	set :views, "#{File.dirname(__FILE__)}/views"
@@ -29,7 +28,13 @@ helpers do
 end
 
 get '/' do
-	
 	haml :index
+end
+
+get '/:id/:number' do |id, number|
+	
+	response['Content-Type'] = 'application/json'
+
+	CRTM::CRTMMechanizer.get_card_details(id, number).to_json
 
 end

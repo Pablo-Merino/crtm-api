@@ -1,0 +1,62 @@
+#<Mechanize::Page
+ {url
+  #<URI::HTTP:0x007f90d9c20288 URL:http://www.tarjetatransportepublico.es/CRTM-ABONOS/consultaSaldo.aspx>}
+ {meta_refresh}
+ {title "\r\n\r\n"}
+ {iframes}
+ {frames}
+ {links
+  #<Mechanize::Page::Link
+   "\r\n            \r\n            "
+   "http://www.crtm.es">
+  #<Mechanize::Page::Link "Inicio" "#">
+  #<Mechanize::Page::Link
+   "\r\n                        "
+   "http://www.madrid.org/">
+  #<Mechanize::Page::Link
+   "012 - Atención al ciudadano"
+   "http://www.madrid.org/cs/Satellite?language=es&pagename=PortalCiudadano%2FPage%2FPCIU_home">
+  #<Mechanize::Page::Link "Solicitudes" "">
+  #<Mechanize::Page::Link "Inicio" "entrada.aspx">
+  #<Mechanize::Page::Link
+   "Información práctica"
+   "http://www.crtm.es/informacion-tarjetatransportepublico">
+  #<Mechanize::Page::Link
+   "Solicitud Tarjeta Transporte Público"
+   "entrada.aspx">
+  #<Mechanize::Page::Link
+   "Solicitud Tarjeta Transporte Público Anual"
+   "http://www.tarjetatransportepublico.es/anual">
+  #<Mechanize::Page::Link "Consulta de saldo" "consultaSaldo.aspx">
+  #<Mechanize::Page::Link
+   "Desde iPhone o iPad"
+   "https://itunes.apple.com/es/app/tarjeta-transporte-publico/id871056896?mt=8">
+  #<Mechanize::Page::Link
+   "Desde tu móvil o tableta Android"
+   "https://play.google.com/store/apps/details?id=com.velentis.crtm.nfc">
+  #<Mechanize::Page::Link
+   "APP STORE"
+   "https://itunes.apple.com/es/app/tarjeta-transporte-publico/id871056896?mt=8">
+  #<Mechanize::Page::Link
+   "GOOGLE PLAY"
+   "https://play.google.com/store/apps/details?id=com.velentis.crtm.nfc">
+  #<Mechanize::Page::Link "© CRTM" "http://www.crtm.es/">}
+ {forms
+  #<Mechanize::Form
+   {name "aspnetForm"}
+   {method "POST"}
+   {action "consultaSaldo.aspx"}
+   {fields
+    [hidden:0x3fc86c63715c type: hidden name: __VIEWSTATE value: /wEPDwUJNzkyNzg1MDMyD2QWAmYPZBYCAgMPZBYEAgMPDxYCHgRUZXh0BSBWaWVybmVzLCAwNSBkZSBkaWNpZW1icmUgZGUgMjAxNGRkAgUPZBYOAgEPDxYCHwAFCjA1LzEyLzIwMTRkZAIDDw8WAh8ABQUxMTowMWRkAgUPZBYEAgMPZBYCZg9kFgICAQ8QZA8WBmYCAQICAgMCBAIFFgYQBQMtLS0FAy0tLWcQBQMwMDEFAzAwMWcQBQMwMDIFAzAwMmcQBQMwMDMFAzAwM2cQBQMxNzUFAzE3NWcQBQMyNTEFAzI1MWdkZAIFD2QWAgIBD2QWAgIBDw8WAh8AZWRkAgcPFgIeB1Zpc2libGVnFgJmD2QWBGYPZBYCAgEPDxYCHwAFDFRBUkpFVEEgbsK6OmRkAgEPZBYCAgEPDxYCHwAFFjAwMTIyMjIyMjAwMTAwMTAzNjgxNTlkZAIJDxYCHglpbm5lcmh0bWwF/QY8dGFibGUgc3R5bGU9Im1hcmdpbjogMHB4IGF1dG87IHRleHQtYWxpZ246IGNlbnRlcjsgZm9udC1mYW1pbHk6ICdBcmlhbCBOYXJyb3cnOyB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyIgYWxpZ249ImNlbnRlciJ3aWR0aD0iNzAlIj48dHIgc3R5bGU9ImZvbnQtZmFtaWx5OiAnQXJpYWwgTmFycm93JzsgYm9yZGVyLWJvdHRvbS1zdHlsZTogcmlkZ2U7IGJvcmRlci1ib3R0b20td2lkdGg6IG1lZGl1bTsgaGVpZ2h0OjI1cHg7IHZlcnRpY2FsLWFsaWduOiBib3R0b207Ij4gICAgPHRkIGNvbHNwYW49IjMiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjogYm90dG9tOyBmb250LXdlaWdodDogYm9sZDsiPlTDrXR1bG9zIGNhcmdhZG9zIGVuIGxhIHRhcmpldGEgIDwvdGQ+PC90cj48dHIgc3R5bGU9ImZvbnQtZmFtaWx5OiAnQXJpYWwgTmFycm93JzsgYm9yZGVyLWJvdHRvbS1zdHlsZTogcmlkZ2U7IGJvcmRlci1ib3R0b20td2lkdGg6IG1lZGl1bTsgaGVpZ2h0OjI1cHg7IHZlcnRpY2FsLWFsaWduOiBib3R0b207Ij48dGQgY29sc3Bhbj0iMyIgc3R5bGU9InZlcnRpY2FsLWFsaWduOiBib3R0b20iPjxzcGFuIHN0eWxlPSJjb2xvcjpSZWQiPiBBQk9OTyAzMCBESUFTIEE8L3NwYW4+PGJyIC8+PHNwYW4gc3R5bGU9IiI+IEpvdmVuPC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSIiPkZlY2hhIGNhcmdhOiAwNC0xMi0yMDE0PC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSIiPkZlY2hhIGRlIGluaWNpbyBkZSB2YWxpZGV6OiAwNC0xMi0yMDE0PC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSIiPlByaW1lciB1c286IDA0LTEyLTIwMTQ8L3NwYW4+PGJyIC8+PHNwYW4gc3R5bGU9IiI+RmVjaGEgZGUgY2FkdWNpZGFkOiAwMi0wMS0yMDE1PC9zcGFuPjxiciAvPjwvdGQ+PC90cj48L3RhYmxlPmQCDw9kFgICAQ8WAh4Fc3R5bGUFCWNvbG9yOlJlZBYCAgEPDxYCHwAFGUNhZHVjYTogMDEtMTItMjAyMTxici8+DQpkZAIRD2QWAgIBDxYCHwNlFgICAQ8PFgIfAAVNUGVyZmlsIE5vcm1hbCBjYWR1Y2E6IDAxLTEyLTIwMjE8YnIvPg0KUGVyZmlsIEpvdmVuIGNhZHVjYTogMTEtMTEtMjAxODxici8+DQpkZGQ=]
+    [text:0x3fc86c636d9c type: text name: ctl00$cntPh$txtNumTTP value: 0010368159]
+    [selectlist:0x3fc86cd9cce4 type:  name: ctl00$cntPh$dpdCodigoTTP value: 001]}
+   {radiobuttons}
+   {checkboxes}
+   {file_uploads}
+   {buttons
+    [submit:0x3fc86c636a7c type: submit name: ctl00$cntPh$btnConsultar value: Continuar]
+    [button:0x3fc86c6365e0 type: button name:  value: Leer]
+    [button:0x3fc86c636360 type: button name:  value: +info]
+    [submit:0x3fc86c63611c type: submit name: ctl00$cntPh$btnCerrar value: Cerrar]
+    [submit:0x3fc86cd9de3c type: submit name: ctl00$cntPh$btnSalirDatosTarjeta value: Salir]}>}>
+

@@ -1,1 +1,22 @@
-%h1 Hello!
+%h1 
+  Consorcio Regional de Transporte de Madrid
+  %small API
+%hr/
+%p
+  ATENCIÓN: Esta API no es oficial, usa la página web ya existente creada por el CRTM:
+  %a{:href => 'http://www.tarjetatransportepublico.es/CRTM-ABONOS/consultaSaldo.aspx'} Consulta de Saldo CRTM
+
+%p
+  Esta API devuelve datos en JSON. Para consultarla haz una petición GET:
+
+  %pre
+    GET /{id}/{numero}
+
+  Donde 
+  %code
+    id
+  son las ultimas tres cifras del primer numero de la tarjeta
+  y
+  %code
+    numero
+  es la segunda linea de números de la misma.
